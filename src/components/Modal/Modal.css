@@ -1,0 +1,43 @@
+.overlay {
+  background: white;
+  width: 100%;
+  z-index: 10;
+  margin-top: 7rem;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.modal-heading {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  gap: 2rem;
+  background: #15263f;
+  border-radius: 1rem;
+  width: 21.875rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.modal-button {
+  border: none;
+  background: white;
+  border-radius: 0.5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 21.875rem;
+  display: flex;
+  flex-direction: revert;
+  justify-content: center;
+  gap: 2rem;
+}
